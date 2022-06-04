@@ -1,0 +1,42 @@
+.container{
+    background-color: rgb(71, 67, 67);
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    justify-content: center;
+    gap:20px;
+
+   
+}
+
+
+
+.item{
+   
+    background-color:rgb(108, 62, 192);
+    margin:10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size:20px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-color:rgb(111, 138, 212);
+}
+
+.item1{
+
+    /*
+    1- gri-row-start
+    2- grid-column-start
+    3- grid-row-end
+    4-grid-column-end
+    */
+    grid-area: 1 / 1 / 4/ 3 ;
+}
+
+

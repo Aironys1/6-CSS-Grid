@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    background-color: brown;
+
+    grid-template-columns: repeat(4,1fr);
+}
+
+.item{
+    background-color:burlywood;
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-color:cadetblue;
+}
